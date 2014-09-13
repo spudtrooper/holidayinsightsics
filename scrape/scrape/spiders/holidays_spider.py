@@ -8,7 +8,6 @@ class HolidaysSpider(scrapy.Spider):
     start_urls = [
         start_url
     ]
-    urls_to_months = {}
 
     def full_url(self, link):
         return "%s%s" % (self.start_url, link)
