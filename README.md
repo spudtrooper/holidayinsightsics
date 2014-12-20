@@ -5,6 +5,6 @@ holidayinsights.com to an ICS file.
 
 * Usage
 
-% cd scrapy crawl holidays
+% scrapy crawl holidays
 
 This outputs holidays to holidayinsights.ics.
